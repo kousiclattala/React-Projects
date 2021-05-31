@@ -15,7 +15,7 @@ In this project, i deleted all the files in the `/src` folder, so that i can cre
 - To render dynamic data in your components then you have define your component like below.
 - In the below code, where title is set by the user by sending a value, and don't forget to use `{}` braces, which tells compiler to load data dynamically.
 
-```ReactJS - in Button.js
+```js - react file(Button.js)
 import React from "react";
 
 const Button = ({ title = "JavaScript" }) => (
@@ -25,12 +25,11 @@ const Button = ({ title = "JavaScript" }) => (
 );
 
 export default Button;
-
 ```
 
 - When you are re-using the component somewhere in your application _(in our case `Button Component`)_ like below. You can pass values to it, If you didn't pass any value then the defualt value _(if any)_ will be set
 
-```ReactJS - in App.js
+```js - react file(App.js)
 import React from "react";
 import "./style.css";
 import Button from "./Button";
@@ -41,7 +40,8 @@ const App = () => {
       <h1 style={{ textAlign: "center" }}>Welcome Alien</h1>
       <Button title="React JS" /> //we are using the component by assiging prop value
       <Button title="Angular" />
-      <Button /> // here default value will be set, because we are not sending any value to the component
+      <Button /> // here default value will be set, because we are not sending any
+      value to the component
     </div>
   );
 };
