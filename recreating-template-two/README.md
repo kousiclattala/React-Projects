@@ -15,12 +15,12 @@ In this Project, i recreated a template from a website [Start Bootstrap](https:/
 - First clone this project into your system.
 - Next, install the necessary dependencies using below command
 
-```nodejs
+```js
 npm install
 ```
 
 - After installing the dependencies, to run the project run below command
 
-```nodejs
+```js
 npm start
 ```
