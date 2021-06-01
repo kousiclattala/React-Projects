@@ -1,0 +1,25 @@
+body {
+  background-color: blueviolet;
+}
+
+.App {
+  text-align: center;
+  justify-content: start;
+  flex-direction: row;
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  margin-top: 5px;
+  margin-right: 5px;
+  /* width: 50%; */
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: medium;
+}
