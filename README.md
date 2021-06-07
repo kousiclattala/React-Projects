@@ -35,3 +35,9 @@ cd <project name> //change into individual project and run below commands.
 npm install
 npm start
 ```
+
+# Note
+
+- some files are named as `side-<projectNumber>-<projectName>`, because they are developed to learn few concepts which are used to develop in main projects.
+
+- You can learn about each project in `<projectName>/Readme.md` file.
