@@ -19,6 +19,7 @@ In this repo, i commit all the projects developed while learning **React** libra
 - uuid
 - React Icons
 - Redux
+- Firebase, Firebase Real Time DB.
 
 ## How to Use
 
